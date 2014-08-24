@@ -351,7 +351,9 @@ public class Game {
 				case 6: sixes++; break;
 				default: System.out.println("Wtf?!");
 			}
-			else
+		}
+		for(Die d:Kept)
+		{
 				switch(d.getValue())
 				{
 				case 1: kones++; break;
